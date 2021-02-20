@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*header section*/
+
+
+header {
+    background-color: #CABBB7;
+    height: 150px;
+    width: 100%;
+}
+
+header p {
+    font-size: 2.2vw;
+    color: #3C3737;
+    display: inline;
+    position: relative;
+    top: 45%;
+    left: 5%;
+}
+
+header img {
+    width: 300px;
+    height: auto;
+    float: right;
+    margin: 15px 20px 10px 0;
+}
+
+
+/*navigation section*/
+
+nav {
+    background-color: #C65252;
+    color: whitesmoke;
+    height: 55px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+ul {
+    float: right;
+    width: 600px;
+}
+
+nav li {
+    float:left;
+    list-style-type: none;
+    font-size: 1.8em;
+    padding-right: 5%;
+    padding-top: 1vH;
+    padding-bottom: 1vh;
+    text-shadow: 0.25px 0.25px 0.5px grey;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*main section*/
+main {
+    height: 1600px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.heading-container {
+    text-align: center;
+    width: 100%;
+    height: 200px ;
+}
+
+.heading-container h1 {
+    display: inline-block;
+    font-size: 2.5em;
+    width: 35%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    margin-left: 37%;
+    margin-right: 37%;
+}
+
+/*Phone image*/
+#img-top {
+    margin-bottom: 4%;
+}
+
+#img-top img {
+    width: 100%
+}
+
+#img-top figcaption {
+    text-align: center;
+}
+
+/*font-size figcaption 3 images*/
+.figctop, .figcbottom {
+    font-size: 1.6em;
+}
+
+.figcbottom {
+    text-align: center;
+}
+
+/*2 bottom images*/
+.img-bottom {
+    width: 47%;
+    height: auto;
+    float: left;
+
+}
+
+.img-bottom img {
+    width: 100%;
+}
+
+.left{
+  
+    margin-right: 6%;
+}
+
+
+
+
+
+/*footer section*/
+
+footer {
+    background-color: #CABBB7;
+    height: 14vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+   }
+
+
+
+.footer-container img {
+    width: 190px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*---------About-me-subpage------*/
+.main-about{
+    height: 1300px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #FFFAF0 ;
+}
+
+.main-about h1 {
+    padding-top: 20px;
+    letter-spacing: 3px;
+    font-size: 4em;
+    text-align: center;
+   
+}
+
+.img-wrapper img {
+    margin: 30px 20% 0 20%;
+}
+
+.text-wrapper {
+    margin-top: 50px;
+}
+
+.text-wrapper p {
+    font-size: 1.5em;
+    margin-top: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    line-height: 35px;
+}
+
+/*--------contact-subpage----*/
+.main-contact {
+    height: 950px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #FFFAF0 ;
+    text-align: center;
+}
+
+.contact-form {
+    text-align: center;
+    padding-top: 70px;
+}
+
+input {
+    width: 600px;
+    height: 40px;
+}
+
+textarea {
+    width: 600px;
+    height: 300px
+}
+
+.contact-form {
+    text-align: center;
+}
